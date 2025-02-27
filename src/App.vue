@@ -1,7 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import MainLayout from "./layouts/MainLayout.vue";
+</script>
 
 <template>
-	<MainLayout>
-		<h1>Hello World</h1>
-	</MainLayout>
+	<MainLayout class="bg-moss-green-800">
+  </MainLayout>
 </template>
