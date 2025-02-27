@@ -3,3 +3,15 @@
 @utility container {
   @apply mx-auto sm:p-[1rem] p-2;
 }
+
+@theme {
+  --color-forest-green-900:#ACEF75;
+  --color-forest-green-800:#91EE77;
+  --color-forest-green-600:#17E880;
+
+  --color-moss-green-900:#0F1C15;
+  --color-moss-green-800:#16281F;
+  --color-moss-green-600:#2E482C;
+
+  --color-neutral-green-900:#030504;
+}
