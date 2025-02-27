@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import MainLayout from "./layouts/MainLayout.vue";
+import LandingPage from "@/views/LandingPage.vue";
 </script>
 
 <template>
-	<MainLayout class="bg-moss-green-800">
-  </MainLayout>
+	<LandingPage />
 </template>
