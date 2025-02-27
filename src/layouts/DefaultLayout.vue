@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import MainHeader from "@/components/ui/MainHeader.vue";
-import WeatherWidget from "@/components/WeatherWidget.vue";
+import WeatherWidget from "@/components/ui/WeatherWidget.vue";
 </script>
 
 <template>
