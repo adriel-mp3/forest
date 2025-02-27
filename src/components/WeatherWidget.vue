@@ -14,8 +14,8 @@ const widgetItems = {
 			class="bg-moss-green-900 text-forest-green-900 divide-moss-green-800 inline-flex items-center justify-center divide-x-2 rounded"
 		>
 			<li class="px-4 py-2 pl-6 capitalize">{{ widgetItems.dayOfWeek }}</li>
-			<li class="px-4 py-2 capitalize">{{ widgetItems.day }}º</li>
-			<li class="px-4 py-2 capitalize">🌧️ {{ widgetItems.umidity }}%</li>
+			<li class="px-4 py-2">{{ widgetItems.day }}º</li>
+			<li class="px-4 py-2">🌧️ {{ widgetItems.umidity }}%</li>
 		</ul>
 	</div>
 </template>
