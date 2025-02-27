@@ -1,6 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import WeatherWidget from "@/components/WeatherWidget.vue";
+</script>
+
 <template>
-  <div class="flex h-screen bg-gray-900">
-    <slot/>
-  </div>
+	<div class="h-screen">
+		<WeatherWidget />
+		<slot />
+	</div>
 </template>
